@@ -12,6 +12,12 @@
 		844B0E331FA9907C0070B2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B0E311FA9907C0070B2EA /* Main.storyboard */; };
 		844B0E351FA9907C0070B2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844B0E341FA9907C0070B2EA /* Assets.xcassets */; };
 		844B0E381FA9907C0070B2EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B0E361FA9907C0070B2EA /* LaunchScreen.storyboard */; };
+		844B0E401FA996E20070B2EA /* desigview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0E3F1FA996E20070B2EA /* desigview.swift */; };
+		844B0E421FA997AD0070B2EA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0E411FA997AD0070B2EA /* HomeController.swift */; };
+		844B0E441FA9B44E0070B2EA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0E431FA9B44E0070B2EA /* RatingControl.swift */; };
+		844B0E461FA9CE3B0070B2EA /* SalonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0E451FA9CE3A0070B2EA /* SalonViewCell.swift */; };
+		844B0E481FA9F0CB0070B2EA /* OffersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0E471FA9F0CB0070B2EA /* OffersController.swift */; };
+		844B0E4A1FA9F2890070B2EA /* OfferViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0E491FA9F2890070B2EA /* OfferViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		844B0E341FA9907C0070B2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844B0E371FA9907C0070B2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844B0E391FA9907C0070B2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B0E3F1FA996E20070B2EA /* desigview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desigview.swift; sourceTree = "<group>"; };
+		844B0E411FA997AD0070B2EA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		844B0E431FA9B44E0070B2EA /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		844B0E451FA9CE3A0070B2EA /* SalonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonViewCell.swift; sourceTree = "<group>"; };
+		844B0E471FA9F0CB0070B2EA /* OffersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersController.swift; sourceTree = "<group>"; };
+		844B0E491FA9F2890070B2EA /* OfferViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 			children = (
 				844B0E2D1FA9907C0070B2EA /* AppDelegate.swift */,
 				844B0E2F1FA9907C0070B2EA /* ViewController.swift */,
+				844B0E3F1FA996E20070B2EA /* desigview.swift */,
+				844B0E451FA9CE3A0070B2EA /* SalonViewCell.swift */,
+				844B0E491FA9F2890070B2EA /* OfferViewCell.swift */,
 				844B0E311FA9907C0070B2EA /* Main.storyboard */,
+				844B0E431FA9B44E0070B2EA /* RatingControl.swift */,
+				844B0E411FA997AD0070B2EA /* HomeController.swift */,
+				844B0E471FA9F0CB0070B2EA /* OffersController.swift */,
 				844B0E341FA9907C0070B2EA /* Assets.xcassets */,
 				844B0E361FA9907C0070B2EA /* LaunchScreen.storyboard */,
 				844B0E391FA9907C0070B2EA /* Info.plist */,
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844B0E461FA9CE3B0070B2EA /* SalonViewCell.swift in Sources */,
+				844B0E421FA997AD0070B2EA /* HomeController.swift in Sources */,
+				844B0E481FA9F0CB0070B2EA /* OffersController.swift in Sources */,
+				844B0E4A1FA9F2890070B2EA /* OfferViewCell.swift in Sources */,
+				844B0E401FA996E20070B2EA /* desigview.swift in Sources */,
 				844B0E301FA9907C0070B2EA /* ViewController.swift in Sources */,
+				844B0E441FA9B44E0070B2EA /* RatingControl.swift in Sources */,
 				844B0E2E1FA9907C0070B2EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WE6F54AS7X;
 				INFOPLIST_FILE = "Humble App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "globiatechnologies.Humble-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WE6F54AS7X;
 				INFOPLIST_FILE = "Humble App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "globiatechnologies.Humble-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
